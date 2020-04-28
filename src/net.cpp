@@ -368,7 +368,7 @@ bool GetMyExternalIP(CNetAddr& ipRet)
         //  <?php echo $_SERVER["REMOTE_ADDR"]; ?>
         if (nHost == 1)
         {
-            addrConnect = CService("91.198.22.70",80); // checkip.dyndns.org
+            addrConnect = CService("216.146.43.70",80); // checkip.dyndns.org
 
             if (nLookup == 1)
             {
@@ -1181,6 +1181,22 @@ static const char *strDNSSeed[][2] = {
     {"nerdlabs001", "hyp01.nerdlabs001.com"},
     {"nerdlabs001", "hyp02.nerdlabs001.com"},
     {"nerdlabs001", "hyp03.nerdlabs001.com"},
+    {"nerdlabs001", "hyp04.nerdlabs001.com"},
+    {"nerdlabs001", "hyp05.nerdlabs001.com"},
+    {"nerdlabs001", "hyp06.nerdlabs001.com"},
+    {"nerdlabs001", "hyp07.nerdlabs001.com"},
+    {"nerdlabs001", "hyp08.nerdlabs001.com"},
+    {"nerdlabs001", "hyp09.nerdlabs001.com"},
+    {"nerdlabs001", "hyp10.nerdlabs001.com"},
+    {"nerdlabs001", "hyp12.nerdlabs001.com"},
+    {"nerdlabs001", "hyp13.nerdlabs001.com"},
+    {"nerdlabs001", "hyp14.nerdlabs001.com"},
+    {"nerdlabs001", "hyp15.nerdlabs001.com"},
+    {"nerdlabs001", "hyp16.nerdlabs001.com"},
+    {"nerdlabs001", "hyp17.nerdlabs001.com"},
+    {"nerdlabs001", "hyp18.nerdlabs001.com"},
+    {"nerdlabs001", "hyp19.nerdlabs001.com"},
+    {"nerdlabs001", "hyp20.nerdlabs001.com"},
 
 
 };
