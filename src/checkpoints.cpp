@@ -24,17 +24,17 @@ namespace Checkpoints
     //
     static MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
-        (     0, hashGenesisBlockOfficial )
-	(10, uint256("0x0000074074af28e73189ae5767b706246be2e0827c46d97a61178394aec877cf"))
-	(31781, uint256("0x42265210870957b8d37f91a0834c6cda65949b2ca805bb3a7d527a4cd585a090")) //official hyp fork
-	(80987, uint256("0x6b943fa756e915ddd8b654844781e21090ae9ddfcb2147fba46cac529df5be08")) //not using even number because sync gets sticky
-	(199999, uint256("0x084b314dfee7db9d311a5db4dc4b8880df36eb7e9bb90ec98dd0bab5af2a7df2"))
-	(235691, uint256("0xf0f71ea7edf7457e611ee893cdbb6ff19499713f4dae935d6d21e073d96a7dc3"))
-	(235999, uint256("0xafe60dd0ab56ef529db21ea648ea4fd8de758a11b6a8ac1fa5cd2d4959162106"))
-	(399999, uint256("0x875356232916a420c100b83d87cc9ce3eb9a174750b48d2fd1eefba7292163b5"))
-	(499999, uint256("0x8e370d8ab8bdb6e6a5a4882dda755b23b5f284f633e04c12e6f73f92de15e68e"))
-    (1207950, uint256("0xbad0a0f14081129f34d42fdc617638756158fd7b1413f4d3a2916bed2c1a61d4"))
-    (1377570, uint256("0x3d76cad9c096ce48336da1528ab31b5897eac41b8780fb37f64110ca034f971c"))
+        (      0, hashGenesisBlockOfficial )
+        (     10, uint256("0x0000074074af28e73189ae5767b706246be2e0827c46d97a61178394aec877cf"))
+        (  31781, uint256("0x42265210870957b8d37f91a0834c6cda65949b2ca805bb3a7d527a4cd585a090")) //official hyp fork
+        (  80987, uint256("0x6b943fa756e915ddd8b654844781e21090ae9ddfcb2147fba46cac529df5be08")) //not using even number because sync gets sticky
+        ( 199999, uint256("0x084b314dfee7db9d311a5db4dc4b8880df36eb7e9bb90ec98dd0bab5af2a7df2"))
+        ( 235691, uint256("0xf0f71ea7edf7457e611ee893cdbb6ff19499713f4dae935d6d21e073d96a7dc3"))
+        ( 235999, uint256("0xafe60dd0ab56ef529db21ea648ea4fd8de758a11b6a8ac1fa5cd2d4959162106"))
+        ( 399999, uint256("0x875356232916a420c100b83d87cc9ce3eb9a174750b48d2fd1eefba7292163b5"))
+        ( 499999, uint256("0x8e370d8ab8bdb6e6a5a4882dda755b23b5f284f633e04c12e6f73f92de15e68e"))
+        (1207950, uint256("0xbad0a0f14081129f34d42fdc617638756158fd7b1413f4d3a2916bed2c1a61d4"))
+        (1377570, uint256("0x3d76cad9c096ce48336da1528ab31b5897eac41b8780fb37f64110ca034f971c"))
 	;
 
     static MapCheckpoints mapCheckpointsTestnet =
