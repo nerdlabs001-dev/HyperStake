@@ -71,5 +71,5 @@ Build Instructions (Linux)
 ### Compile
 `make`
 
-### Exoplorer
+### Explorer
 https://hyperexplorer.ml/
